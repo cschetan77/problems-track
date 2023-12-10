@@ -1,9 +1,10 @@
-import './App.css';
+import AddProblem from './components/AddProblem';
+import EditorCard from './components/EditorCard';
 
 function App() {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">Welcome to Problems-Track Project</h1>
+      <AddProblem />
     </div>
   );
 }
