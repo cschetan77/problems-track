@@ -1,14 +1,15 @@
 .card {
     border-radius: 20px;
-    border-color: purple;
+    border-color: white;
     border-width: 5px;
     border-style: solid;
-    width: 80%;
+    width: 100vw;
+    height: 100vh;
     padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .card_heading {
@@ -19,3 +20,163 @@
 .padding_10 {
     padding: 10px;
 }
+
+.padding_bottom_10 {
+    padding-bottom: 30px;
+}
+
+.flex_no_shrink {
+    flex-shrink: 0;
+}
+
+.add_problem_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.problem_name_input {
+    padding: 7px;
+    border-radius: 6px;
+    font-size: 16px;
+    background: #fbfbfb;
+    border: 2px solid transparent;
+    height: 36px;
+    box-shadow: 0 0 0 1px #dddddd, 0 2px 4px 0 rgb(0 0 0 / 7%), 0 1px 1.5px 0 rgb(0 0 0 / 5%);
+
+    :focus {
+        border: 2px solid #000;
+        border-radius: 4px;
+    }
+}
+
+.problem_link_input {
+    padding: 7px;
+    border-radius: 6px;
+    font-size: 16px;
+    background: #fbfbfb;
+    border: 2px solid transparent;
+    height: 36px;
+    box-shadow: 0 0 0 1px #dddddd, 0 2px 4px 0 rgb(0 0 0 / 7%), 0 1px 1.5px 0 rgb(0 0 0 / 5%);
+    width: 600px;
+    :focus {
+        border: 2px solid #000;
+        border-radius: 4px;
+    }
+}
+
+.problem_category_select {
+    padding: 7px;
+    border-radius: 6px;
+    font-size: 16px;
+    background: #fbfbfb;
+    height: 40px;
+    box-shadow: 0 0 0 1px #dddddd, 0 2px 4px 0 rgb(0 0 0 / 7%), 0 1px 1.5px 0 rgb(0 0 0 / 5%);
+    border: 2px solid transparent;
+    :focus {
+        border: 2px solid #000;
+        border-radius: 4px;
+    }
+}
+
+.add_problem_difficulty_container {
+    display: flex;
+}
+
+.add_problem_difficulty_radio {
+    display: flex;
+}
+
+.flex_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.add_problem_notes {
+    display: flex;
+    flex-direction: column;
+}
+
+.add_problem_notes_textarea {
+    height: 15rem;
+    width: 30rem;
+    border-radius: 6px;
+    font-size: 16px;
+    background: #fbfbfb;
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 1px #dddddd, 0 2px 4px 0 rgb(0 0 0 / 7%), 0 1px 1.5px 0 rgb(0 0 0 / 5%);
+    :focus {
+        border: 2px solid #000;
+        border-radius: 4px;
+    }
+}
+
+.add_problem_notes {
+    width: 100%;
+}
+
+.add_problem_form_submit_button {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.add_problem_form_submit_button:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.add_problem_form_submit_button:hover:after {
+  transform: translate(0, 0);
+}
+
+.add_problem_form_submit_button:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.add_problem_form_submit_button:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .add_problem_form_submit_button {
+    padding: 0 40px;
+  }
+}
+
