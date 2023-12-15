@@ -114,6 +114,7 @@ const AddProblem = () => {
                     <div className={classNames(styles.add_problem_notes, styles.padding_bottom_10, styles.flex_no_shrink)}>
                         <label htmlFor="add-problem-notes">Notes:</label>
                         <textarea
+                            id="add-problem-notes"
                             name="problemNotes"
                             value={addProblemForm.problemNotes}
                             onChange={formDataChangeHandler}

@@ -1,0 +1,15 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15rem;
+}
+
+.loading_svg {
+    height: 5rem;
+    width: 5rem;
+}
+
+.loading_text {
+    font-size: 2rem;
+}

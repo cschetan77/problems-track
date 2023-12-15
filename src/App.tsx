@@ -1,10 +1,10 @@
 import AddProblem from './components/AddProblem';
-import EditorCard from './components/EditorCard';
+import Problems from './components/Problems';
 
 function App() {
   return (
     <div>
-      <AddProblem />
+      <Problems />
     </div>
   );
 }
