@@ -1,0 +1,35 @@
+.overlay_background {
+    background-color: rgba(194, 189, 189, 0.5);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    z-index: 9;
+}
+
+.overlay_container {
+    z-index: 10;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: fit-content;
+    height: fit-content;
+}
+
+.overlay_controls {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.overlay_close_button {
+    border: none;
+    background-color: transparent;
+    font-size: 36px;
+    cursor: pointer;
+}

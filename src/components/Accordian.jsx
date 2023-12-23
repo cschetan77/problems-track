@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import styles from '../css/ProblemAccordian.module.css';
 
-const ProblemAccordian = ({ name, children }) => {
+const Accordian = ({ name, children }) => {
     const [ isExpanded, setIsExpanded ] = useState(false);
 
     const handleHeaderClick = () => {
@@ -21,4 +21,4 @@ const ProblemAccordian = ({ name, children }) => {
     );
 }
 
-export default ProblemAccordian;
+export default Accordian;

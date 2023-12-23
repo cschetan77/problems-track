@@ -65,8 +65,24 @@ const problemDataByDate = [
             }
         ]
     }
+];
+
+const journals = [
+    {
+        date: "2023-12-15",
+        data: "My first journal"
+    },
+    {
+        date: "2023-12-14",
+        data: "My second journal"
+    },
+    {
+        date: "2023-12-14",
+        data: "My third journal"
+    }
 ]
 
 export {
-    problemDataByDate
+    problemDataByDate,
+    journals
 };

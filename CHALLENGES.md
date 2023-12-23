@@ -13,3 +13,10 @@
 
 ## Problems list page
 * Accordian Menu.
+* An Overlay component. 
+* Loading spinner and its CSS.
+
+## Journals
+
+* Deciding on what text editor to use.
+* https://uiwjs.github.io/react-md-editor/ 

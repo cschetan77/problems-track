@@ -1,10 +1,11 @@
 import AddProblem from './components/AddProblem';
+import Journal from './components/Journal';
 import Problems from './components/Problems';
 
 function App() {
   return (
     <div>
-      <Problems />
+      <Journal />
     </div>
   );
 }
