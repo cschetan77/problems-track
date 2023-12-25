@@ -82,7 +82,35 @@ const journals = [
     }
 ]
 
+const goals = [
+    {
+        id: 1,
+        completed: false,
+        date: '2023-12-25',
+        display: 'This is sample goal 1'
+    },
+    {
+        id: 2,
+        completed: false,
+        date: '2023-12-26',
+        display: 'This is sample goal 2'
+    },
+    {
+        id: 3,
+        completed: true,
+        date: '2023-12-24',
+        display: 'This is sample goal 3'
+    },
+    {
+        id: 4,
+        completed: true,
+        date: '2023-12-23',
+        display: 'This is sample goal 4'
+    }
+]
+
 export {
     problemDataByDate,
-    journals
+    journals,
+    goals
 };
